@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Let me introduce </title>
+	<link href="./stylesheet/mystyle.css" rel="stylesheet" type="text/css">	
+</head>
+<body>
+	<form>
+		<div id="title">
+			<h2>저에 대한 간단한 설문조사입니다. 응해주시면 감사하겠습니다.</h2>
+		</div>
+		<table>
+			<tr>
+				<th>
+					1. 김규현 학우에 대해 알고 계십니까?
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="know" value="최상">친하다.
+					<input type="radio" name="know" value="중">이름만 안다.
+					<input type="radio" name="know" value="최하">모른다.
+				</td>
+			</tr>
+			<tr>
+				<th>
+					2. 김규현 학우의 성격은 좋은 편입니까?
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="personality" value="최상">정말 좋다
+					<input type="radio" name="personality" value="상">좋다
+					<input type="radio" name="personality" value="중">그냥 그렇다.
+					<input type="radio" name="personality" value="하">별로다.
+					<input type="radio" name="personality" value="최하">아주 별로다.
+				</td>
+			</tr>
+			<tr>
+				<th>
+					3. 김규현 학우와 친해지고 싶습니까?
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="friendly" value="최상">매우 그렇다.
+					<input type="radio" name="friendly" value="상">그렇다.
+					<input type="radio" name="friendly" value="중">보통이다.
+					<input type="radio" name="friendly" value="하">아니다.
+					<input type="radio" name="friendly" value="최하">절대 아니다.
+				</td>
+			</tr>
+			<tr>
+				<th>
+					4. 이 홈페이지를 통해 김규현 학우에 대해 알 수 있었습니까?
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="well" value="최상">매우 그렇다.
+					<input type="radio" name="well" value="상">그렇다.
+					<input type="radio" name="well" value="중">보통이다.
+					<input type="radio" name="well" value="하">아니다.
+					<input type="radio" name="well" value="최하">절대 아니다.
+				</td>
+			</tr>
+			<tr>
+				<th>
+					김규현 학우에게 하고 싶은 말이 있으면 적어주세요.
+				</th>
+			</tr>
+			<tr>
+				<td>
+					<textarea cols="100" rows="15" name="etc"></textarea>
+				</td>
+			</tr>
+		</table>
+	</form>
+	<div id="submit">
+		<input type="submit" value="제출"/><h2>설문에 응해주셔서 감사합니다!</h2>
+	</div>
+	<div id="pagination">
+		<a href="index.html">Home</a><br>
+		<a href="index2.html">Profile</a><br>
+		<a href="index3.html" class="selected">Survey</a><br>
+	</div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+html {
+	background: url('../images/background.jpg')  no-repeat fixed 100% 100%/100% 100%; 
+	font-family: "Malgun Gothic", "Gulim", Verdan, Arial, Tahoma;
+	font-size: 15pt;
+}
+#title{
+	text-align: center;
+	margin:100px 0 0 0;
+	color: purple;
+}
+
+#enter{
+	text-align: center;
+	margin:30px 0 0 0;
+}
+
+#enter a{
+	color:blue;
+	text-decoration:none;
+}
+
+table{
+	margin: 0 auto;
+}
+
+th, td{
+	border: 3px solid blue;
+	padding: 3px 10px;
+}
+
+th{
+	background-color: #6799FF;
+}
+
+tr{
+	background-color: #D4F4FA
+}
+
+th+td{
+	background-color: #D4F4FA
+}
+
+#submit{
+	color:brown;
+	font-style:italic;
+	text-align: center;
+}
+
+#left{
+	margin:0 0 0 10%;
+	float:left;
+}
+
+#right{
+	font-size: 15pt;
+}
+
+#pagination{
+	position: fixed;
+	text-align: center;
+	left: 0px;
+	top: 0px;
+	display: inline-block;
+	background-color: #FFFFFF;
+	color: green;
+	width: 10%;
+
+}
+#pagination a{
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration:none;
+}
+#pagination a:hover{
+	background-color: #B6FFFF;
+}
+#pagination a:visited{
+	color: #4641D9;
+}
+#pagination a:active{
+	background-color: #CEF279;
+}
+#pagination a.selected{
+	background-color: #6B9900;
+}
