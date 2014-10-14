@@ -3,29 +3,112 @@ html {
 	font-family: "Malgun Gothic", "Gulim", Verdan, Arial, Tahoma;
 	font-size: 15pt;
 }
+
+#wrap{
+	width:960px;
+	margin:50px auto;
+	background-color:#3DB7CC;
+	border-radius: 20px;
+	padding:10px 0px;
+}
+
 #title{
-	text-align: center;
-	margin:100px 0 0 0;
-	color: purple;
+	margin:0 auto;
+	width:940px;
+	height:100px;
+	background-color: #fff;
+	border-radius: 20px;
 }
 
-#enter{
-	text-align: center;
-	margin:30px 0 0 0;
+#main{
+	margin:10px 10px;
+
 }
 
-#enter a{
-	color:blue;
+#menu{
+	float:left;
+	width:200px;
+	height:170px;
+	background-color: #CEF279;
+	border-radius: 20px;
+}
+
+#menu ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	text-align: center;
+
+}
+
+#menu li{
+	height:50px;
+}
+
+#menu ul li a{
 	text-decoration:none;
+	background-color: #1DDB16;
+	font-size: 30px;
+	padding:5px 0px;
+	margin:5px 5px;
+	display: block;
+	border-radius: 20px;
+}
+
+#menu ul li a:hover{
+	background-color: #B6FFFF;
+}
+#menu ul li a:visited{
+	color: #4641D9;
+}
+#menu ul li a:active{
+	background-color: #CEF279;
+}
+#menu ul li a.selected{
+	background-color: #6B9900;
+}
+
+#body{
+	margin-left:200px;
+	background-color: #CEF279;
+	border-radius: 20px;
+	text-align: center;
+}
+
+#body img{
+	float:center;
+	margin:10px auto;
+	border-radius: 20px;
+}
+
+#tail{
+	float:top;
+	height:100px;
+}
+
+#tail a{
+	text-decoration: none;
+	font-size: 30px;
+	color:blue;
+	float:none;
+	font-style: italic;
+}
+
+.font {
+	padding-top: 15px;
+	text-align: center;
+	font-size: 50px;
+	color:blue;
+
 }
 
 table{
 	margin: 0 auto;
+	padding:0 0 20px 0;
 }
 
 th, td{
 	border: 3px solid blue;
-	padding: 3px 10px;
 }
 
 th{
@@ -38,48 +121,4 @@ tr{
 
 th+td{
 	background-color: #D4F4FA
-}
-
-#submit{
-	color:brown;
-	font-style:italic;
-	text-align: center;
-}
-
-#left{
-	margin:0 0 0 10%;
-	float:left;
-}
-
-#right{
-	font-size: 15pt;
-}
-
-#pagination{
-	position: fixed;
-	text-align: center;
-	left: 0px;
-	top: 0px;
-	display: inline-block;
-	background-color: #FFFFFF;
-	color: green;
-	width: 10%;
-
-}
-#pagination a{
-	padding-left: 5px;
-	padding-right: 5px;
-	text-decoration:none;
-}
-#pagination a:hover{
-	background-color: #B6FFFF;
-}
-#pagination a:visited{
-	color: #4641D9;
-}
-#pagination a:active{
-	background-color: #CEF279;
-}
-#pagination a.selected{
-	background-color: #6B9900;
 }
